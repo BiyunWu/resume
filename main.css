@@ -1,41 +1,40 @@
+/* This project is optimized for iOS devices.*/
+
+/* iPhone 6 or newer devices. */
 @media screen and (min-width: 0px) and (max-width: 414px) {
   header {padding-bottom: 0.8em;}
   .header_image {max-width: 40px;}
   .title1 {font-size: 1.3em;}
   .title2 {font-size: 0.8em;}
 }
+
+/* Landscape viewport for iPhone. Reduce the header's height for more space. */
 @media screen and (min-width: 415px) and (max-width: 736px){
   .header_image {max-width: 30px;}
   .title1 {font-size: 1.1em;}
   .title2 {font-size: 0.7em;}
 }
+
+/* Suitable for iPad, Mac&PC */
 @media screen and (min-width: 737px) {
   .header_image {max-width: 50px;}
   .title1 {font-size: 1.7em;}
   .title2 {font-size: 1.2em;}
 }
 
-/* html {
-  width: 100%;
-  margin: 0, auto;
-}
-
 body {
-  min-width: 320px;
-  max-width: 1024px;
-  margin: 0;
-} */
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .content {
    margin:0 auto;
-   min-width: 320px;
+   min-width: 320px;  /* iPhone5 */
    max-width:960px;
 }
 
 header {
   width: 100%;
-  /* min-width: 320px;
-  max-width: 1024px; */
   border-bottom: solid;
   border-color: rgb(127,151,171);
   border-width: 2px;
@@ -71,7 +70,6 @@ a:hover {
 }
 
 .icon {
-  /* display: inline-block; */
   text-align: center;
 }
 
@@ -81,18 +79,23 @@ h3 {
   margin-bottom: 0;
 }
 
+.projects {
+  margin-top: 2.5em;
+}
+
 figure {
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 2em;
   margin-left: 0;
 }
+
 figcaption {
   text-align: center;
 }
 
 footer {
-  margin-top: 4em;
+  margin-top: 2em;
   width: 100%;
   text-align: center;
   font-size: 0.7em;
