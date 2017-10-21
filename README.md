@@ -1,10 +1,10 @@
-#Introduction
+##Introduction
 - It is an interactive web resume.
 - This project is optimized for iOS devices.
 
-#Inplementation
+##Inplementation
 - Open index.html with the web browser.
 - Google Chrome recommonded.
 
-#License
+##License
 MIT license
